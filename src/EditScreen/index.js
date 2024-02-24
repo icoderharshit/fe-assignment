@@ -31,6 +31,7 @@ const EditScreen = ({ member, onClose }) => {
   return (
     <div>
       <span
+        className="close-btn"
         style={{
           float: "right",
         }}
